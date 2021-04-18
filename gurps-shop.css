@@ -710,7 +710,7 @@ body {
   margin-bottom: calc(0.25in - 1em);
 }
 
-#sheet {
+#inv-sheet {
   display: grid;
   grid-template:
     'personal personal'
