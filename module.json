@@ -1,0 +1,12 @@
+{
+	"name": "gurps-shop",
+	"title": "GURPS Inventory Sheet",
+	"description": "A simple additional character sheet showing only the inventory, for shops, collective item stashes, etc.",
+	"author": "neck",
+	"version": "1.0",
+	"minimumCoreVersion": "0.7.9",
+	"compatibleCoreVersion": "0.7.9",
+	"esmodules": ["gurps-shop.js"],
+	"systems": ["gurps"],
+	"styles": ["gurps-shop.css"]
+}

@@ -1,0 +1,1839 @@
+.gurps {
+  /* Sheet Tabs */
+  /* Items List */
+  /* Attributes */
+}
+
+.gcs-input-ta {
+  border-width: 0px !important;
+  border: none !important;
+  height: 1em !important;
+  padding: 1px !important;
+}
+
+.gcs-input {
+  border-width: 0px !important;
+  border: none !important;
+  height: 100% !important;
+  padding: 1px !important;
+}
+
+.gcs-input-sm2 {
+  border-width: 0px !important;
+  border: none !important;
+  height: 100% !important;
+  max-width: 2em;
+  padding: 1px !important;
+}
+
+.gcs-input-sm3 {
+  border-width: 0px !important;
+  border: none !important;
+  height: 100% !important;
+  max-width: 3em;
+  padding: 1px !important;
+}
+
+.gcs-input-sm4 {
+  border-width: 0px !important;
+  border: none !important;
+  height: 100% !important;
+  max-width: 4em;
+  padding: 1px !important;
+}
+
+.gcs-input-sm5 {
+  border-width: 0px !important;
+  border: none !important;
+  height: 100% !important;
+  max-width: 5em;
+  padding: 1px !important;
+}
+
+.gcs-input-sm8 {
+  border-width: 0px !important;
+  border: none !important;
+  height: 100% !important;
+  max-width: 8em;
+  padding: 1px !important;
+}
+
+.gcs-input-sm10 {
+  border-width: 0px !important;
+  border: none !important;
+  height: 100% !important;
+  max-width: 10em;
+  padding: 1px !important;
+}
+
+.gcs-input-2 {
+  border-width: 0px !important;
+  border: none !important;
+  height: 100% !important;
+  min-width: 2em !important;
+  padding: 1px !important;
+}
+
+.gcs-input-3 {
+  border-width: 0px !important;
+  border: none !important;
+  height: 100% !important;
+  min-width: 3em !important;
+  padding: 1px !important;
+}
+
+.gcs-input-4 {
+  border-width: 0px !important;
+  border: none !important;
+  height: 100% !important;
+  min-width: 4em !important;
+  padding: 1px !important;
+}
+
+.gcs-input-5 {
+  border-width: 0px !important;
+  border: none !important;
+  height: 100% !important;
+  min-width: 5em !important;
+  padding: 1px !important;
+}
+
+.gcs-input-10 {
+  border-width: 0px !important;
+  border: none !important;
+  height: 100% !important;
+  min-width: 10em !important;
+  padding: 1px !important;
+}
+
+.gcs-input-25 {
+  border-width: 0px !important;
+  border: none !important;
+  height: 100% !important;
+  min-width: 25em !important;
+  padding: 1px !important;
+}
+
+.gcs-input-30 {
+  border-width: 0px !important;
+  border: none !important;
+  height: 100% !important;
+  min-width: 30em !important;
+  padding: 1px !important;
+}
+
+#threed6 {
+  /*border: 5px solid rgb(255, 123, 0);*/
+  position: fixed;
+  bottom: 10px;
+  left: 880px;
+  width: 52px;
+  height: 52px;
+  margin: 0px;
+  padding: 0px;
+  cursor: pointer;
+  display: inline-block;
+}
+
+#testdialog {
+  left: 940px;
+}
+
+#threed6 #threed6dicerot {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 105;
+}
+
+#threed6 #threed6dicerotactive {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 105;
+}
+
+#threed6:hover #threed6dicerot {
+  display: inline;
+}
+
+#threed6:active #threed6dicerotactive {
+  display: inline;
+}
+
+.gurpstippable {
+  position: relative;
+}
+
+.gurpstippable:hover::before {
+  content: attr(data-tooltip);
+  position: absolute;
+  bottom: 130%;
+  left: -50%;
+  min-width: 20px;
+  border-radius: 6px;
+  padding: 8px;
+  color: #fff;
+  background-color: #555;
+  z-index: 102;
+}
+
+.gurpstippable:hover::after {
+  content: '';
+  position: absolute;
+  top: -30%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+  z-index: 102;
+}
+
+.pdflink {
+  text-shadow: none;
+  color: blue;
+  text-decoration: underline;
+}
+
+.pdflink:hover {
+  /*font-size: 115%;
+  font-weight: bold;*/
+  text-shadow: none;
+
+  color: red;
+  text-decoration: underline;
+  overflow: visible;
+  z-index: 99;
+  cursor: pointer;
+}
+
+.rollable:hover {
+  cursor: pointer;
+  text-decoration: none;
+  background-color: rgb(255, 255, 128) !important;
+  color: black;
+  padding: 1px 1px 1px 1px;
+  border-top: 2px solid #cccccc;
+  border-right: 2px solid #333333;
+  border-bottom: 2px solid #333333;
+  border-left: 2px solid #cccccc;
+  border-radius: 8px;
+  margin: -2px 2px -3px -2px;
+  overflow: visible;
+  z-index: 99;
+}
+
+.rollable {
+  color: black;
+  /* text-shadow: 2px 2px rgb(255, 255, 128); */
+  background-color: rgb(255, 255, 190) !important;
+}
+
+.rollable:active {
+  cursor: pointer;
+  text-decoration: none;
+  color: black;
+  background-color: rgb(255, 255, 128) !important;
+  padding: 2px 3px 2px 3px;
+  border-bottom: 1px solid #cccccc;
+  border-left: 1px solid #333333;
+  border-top: 1px solid #333333;
+  border-right: 1px solid #cccccc;
+  border-radius: 8px;
+  margin: -2px -2px -3px -2px;
+}
+
+.gmod:hover {
+  cursor: pointer;
+  text-decoration: none;
+  background-image: none;
+  background-color: rgb(255, 128, 100) !important;
+  color: black;
+  padding: 1px 1px 1px 1px;
+  border-top: 2px solid #cccccc;
+  border-right: 2px solid #333333;
+  border-bottom: 2px solid #333333;
+  border-left: 2px solid #cccccc;
+  border-radius: 8px;
+  margin: -2px 0px -2px 2px;
+  text-align: center;
+}
+
+.gmod {
+  color: black;
+  /*text-shadow: 2px 2px 8px rgb(255, 0, 0);*/
+  background-color: rgb(255, 230, 190) !important;
+  /* background-image: linear-gradient(to right, white , rgb(255, 200, 128)); */
+}
+
+.gmod:active {
+  cursor: pointer;
+  text-decoration: none;
+  color: black;
+  background-image: none;
+  background-color: rgb(255, 128, 100) !important;
+  padding: 1px 1em 1px 1px;
+  border-bottom: 2px solid #cccccc;
+  border-left: 2px solid #333333;
+  border-top: 2px solid #333333;
+  border-right: 2px solid #cccccc;
+  border-radius: 8px;
+  margin: -1px -6px -2px 4px;
+  overflow: visible;
+  z-index: 99;
+}
+
+.glinkmod:hover {
+  cursor: pointer;
+  text-decoration: none;
+  background-image: none;
+  background-color: rgb(255, 128, 64) !important;
+  color: black;
+  padding: 1px 1px 1px 1px;
+  border-top: 2px solid #cccccc;
+  border-right: 2px solid #333333;
+  border-bottom: 2px solid #333333;
+  border-left: 2px solid #cccccc;
+  border-radius: 8px;
+  margin: -1px -2px -1px -4px;
+}
+
+.glinkmod {
+  color: black;
+  background-color: rgb(255, 230, 190) !important;
+}
+
+.glinkmod:active {
+  cursor: pointer;
+  text-decoration: none;
+  color: black;
+  background-image: none;
+  background-color: rgb(255, 128, 64) !important;
+  padding: 1px 1px 1px 1px;
+  border-bottom: 2px solid #cccccc;
+  border-left: 2px solid #333333;
+  border-top: 2px solid #333333;
+  border-right: 2px solid #cccccc;
+  border-radius: 8px;
+  margin: -1px -3px -1px -3px;
+  z-index: 99;
+}
+
+.glinkmodplus:hover {
+  cursor: pointer;
+  text-decoration: none;
+  background-image: none;
+  background-color: rgb(0, 255, 0) !important;
+  color: black;
+  padding: 1px 1px 1px 1px;
+  border-top: 2px solid #cccccc;
+  border-right: 2px solid #333333;
+  border-bottom: 2px solid #333333;
+  border-left: 2px solid #cccccc;
+  border-radius: 8px;
+  margin: -1px -2px -1px -4px;
+  font-weight: bold;
+}
+
+.glinkmodplus {
+  color: black;
+  background-color: rgb(175, 255, 175) !important;
+}
+
+.glinkmodplus:active {
+  cursor: pointer;
+  text-decoration: none;
+  color: black;
+  background-image: none;
+  background-color: rgb(0, 255, 0) !important;
+  padding: 1px 1px 1px 1px;
+  border-bottom: 2px solid #cccccc;
+  border-left: 2px solid #333333;
+  border-top: 2px solid #333333;
+  border-right: 2px solid #cccccc;
+  border-radius: 8px;
+  margin: -1px -3px -1px -3px;
+  z-index: 99;
+  font-weight: normal;
+}
+
+.glinkmodminus:hover {
+  cursor: pointer;
+  text-decoration: none;
+  background-image: none;
+  background-color: rgb(255, 0, 0) !important;
+  color: yellow;
+  text-shadow: 1px 1px black;
+  padding: 1px 1px 1px 1px;
+  border-top: 2px solid #cccccc;
+  border-right: 2px solid #333333;
+  border-bottom: 2px solid #333333;
+  border-left: 2px solid #cccccc;
+  border-radius: 8px;
+  margin: -1px -2px -1px -4px;
+  font-weight: bold;
+}
+
+.glinkmodminus {
+  color: black;
+  background-color: rgb(255, 175, 175) !important;
+}
+
+.glinkmodminus:active {
+  cursor: pointer;
+  text-decoration: none;
+  color: yellow;
+  text-shadow: 1px 1px black;
+  background-image: none;
+  background-color: rgb(255, 0, 0) !important;
+  padding: 1px 1px 1px 1px;
+  border-bottom: 2px solid #cccccc;
+  border-left: 2px solid #333333;
+  border-top: 2px solid #333333;
+  border-right: 2px solid #cccccc;
+  border-radius: 8px;
+  margin: -1px -3px -1px -3px;
+  z-index: 99;
+  font-weight: normal;
+}
+
+.gurpslink:hover {
+  cursor: pointer;
+  text-decoration: none;
+  background-color: rgb(255, 255, 128) !important;
+  color: black;
+  padding: 2px 3px 2px 3px;
+  border-top: 2px solid #cccccc;
+  border-right: 2px solid #333333;
+  border-bottom: 2px solid #333333;
+  border-left: 2px solid #cccccc;
+  border-radius: 5px;
+  margin: -2px -4px -2px -6px;
+  overflow: visible;
+  z-index: 99;
+}
+
+.gurpslink {
+  color: black;
+  /* text-shadow: 2px 2px rgb(255, 255, 128); */
+  background-color: rgb(255, 255, 175) !important;
+}
+
+.gurpslink:active {
+  cursor: pointer;
+  text-decoration: none;
+  color: black;
+  background-color: rgb(255, 255, 128) !important;
+  padding: 2px 3px 2px 3px;
+  border-bottom: 1px solid #cccccc;
+  border-left: 1px solid #333333;
+  border-top: 1px solid #333333;
+  border-right: 1px solid #cccccc;
+  border-radius: 8px;
+  margin: -2px -5px -2px -3px;
+  overflow: visible;
+  z-index: 99;
+}
+
+.gurps .window-content {
+  height: 100%;
+  padding: 5px;
+  /*overflow-y: hidden;*/
+  background: white;
+}
+
+.gurps .sheet-header {
+  height: 250px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  margin-bottom: 10px;
+}
+
+.gurps #portrait .img-display {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 112.25px;
+}
+
+.gurps #portrait .profile-img {
+  display: block;
+  height: 100%;
+  opacity: 0;
+  width: 100%;
+}
+
+.gurps .sheet-header .header-fields {
+  flex: 1;
+  /*  height: 100px;*/
+}
+
+.gurps .sheet-header h1.charname {
+  height: 50px;
+  padding: 0px;
+  margin: 5px 0;
+  border-bottom: 0;
+}
+
+.gurps .sheet-header h1.charname input {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+}
+
+.gurps .resource {
+  width: 50%;
+  height: 40px;
+  margin-top: 10px;
+  float: left;
+  text-align: center;
+}
+
+.gurps .resource input {
+  width: 100px;
+  height: 28px;
+}
+
+.gurps .tabs {
+  height: 40px;
+  border-top: 1px solid #aaa;
+  border-bottom: 1px solid #aaa;
+}
+
+.gurps .tabs .item {
+  line-height: 40px;
+  font-weight: bold;
+}
+
+.gurps .tabs .item.active {
+  text-decoration: underline;
+  text-shadow: none;
+}
+
+.gurps .sheet-body {
+  overflow: hidden;
+}
+
+.gurps .sheet-body .tab {
+  height: 100%;
+  overflow-y: auto;
+}
+
+.gurps .editor,
+.gurps .editor-content {
+  height: 100%;
+}
+
+.gurps .item-list {
+  list-style: none;
+  margin: 7px 0;
+  padding: 0;
+  overflow-y: auto;
+}
+
+.gurps .item-list .item {
+  height: 30px;
+  line-height: 24px;
+  padding: 3px 0;
+  border-bottom: 1px solid #bbb;
+}
+
+.gurps .item-list .item img {
+  flex: 0 0 24px;
+  margin-right: 5px;
+}
+
+.gurps .item-list .item-name {
+  margin: 0;
+}
+
+.gurps .item-list .item-controls {
+  flex: 0 0 36px;
+}
+
+.gurps .attributes table {
+  /*	  width: 300px;*/
+  border: none;
+}
+
+.gurps .attributes {
+  flex: none;
+  margin: 0;
+  border-left: none;
+  border-bottom: none;
+  /*  border-top: 2px groove #eeede0;
+  border-right: 2px groove #eeede0; */
+  border-radius: 0;
+  height: auto;
+  width: 275px;
+}
+
+.gurps .attributes .brackets {
+  border-top: none;
+  font-size: 24px;
+  font-weight: 100;
+}
+
+.gurps .attributes .pts {
+  border: none;
+  font-size: 10pt;
+  text-align: center;
+}
+
+.gurps .attributes .fill-in {
+  border: 1px solid black;
+  text-align: center;
+  transition: color 0.5s;
+  font-size: 120%;
+}
+
+.gurps .attributes .fill-in:hover {
+  cursor: pointer;
+  color: blue;
+  text-decoration: underline;
+  font-size: 150%;
+  font-weight: 900;
+}
+
+.gurps .attributes-header {
+  padding: 5px;
+  margin: 5px 0;
+  background: rgba(0, 0, 0, 0.05);
+  border: 1px solid #aaa;
+  border-radius: 2px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.gurps .attributes-header .attribute-label {
+  flex: 1.5;
+}
+
+.gurps .attributes-header .attribute-control {
+  flex: 0 0 20px;
+}
+
+.gurps .attributes-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.gurps .attributes-list li > * {
+  margin: 0 3px;
+  height: 28px;
+  line-height: 24px;
+  background: transparent;
+  border: none;
+  border-radius: 0;
+  border-bottom: 1px solid #aaa;
+}
+
+.gurps .attributes-list a.attribute-control {
+  flex: 0 0 20px;
+  text-align: center;
+  line-height: 28px;
+  border: none;
+}
+
+.gurps.sheet.actor {
+  min-width: 560px;
+  min-height: 375px;
+}
+
+.gurps.sheet.item {
+  min-width: 460px;
+  min-height: 400px;
+}
+
+.gurps .fieldblock {
+  display: grid;
+  grid-template-columns: 0fr 1fr;
+  align-items: end;
+  padding-bottom: 0.15em;
+}
+
+.gurps .fieldblock hr {
+  grid-column: 1 / span 2;
+  width: 100%;
+  border: none;
+  background-color: black;
+  height: 1px;
+  margin: 0;
+  margin-top: 0.2em;
+  margin-bottom: 0.1em;
+}
+
+.gurps #description {
+  grid-area: description;
+  display: grid;
+  grid-template:
+    'header header header'
+    'block1 block2 block3';
+  grid-template-rows: 0fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  border: 1px solid black;
+}
+
+.gurps #description .header {
+  grid-area: header;
+}
+
+.gurps .fieldblock {
+  text-align: left;
+  padding-left: 0.2em;
+  padding-right: 0.2em;
+  /* font-size: 80%; */
+  white-space: nowrap;
+  align-self: center;
+}
+
+.gurps .fieldblock .field {
+  margin-right: 0.2em;
+  padding-left: 0.2em;
+  padding-right: 0.2em;
+  border-bottom: 1px solid lightgray;
+}
+
+body {
+  font-family: Verdana, sans-serif;
+  font-size: small;
+  font-weight: normal;
+  padding: 0;
+  margin: 0.25in;
+  margin-bottom: calc(0.25in - 1em);
+}
+
+#sheet {
+  display: grid;
+  grid-template:
+    'personal personal'
+    'equipment equipment'
+    'other_equipment other_equipment'
+    'notes notes';
+  grid-gap: 0.05in;
+}
+
+#editorsheet {
+  display: grid;
+  grid-template:
+    'personal personal'
+    'stats stats'
+    'reactions reactions'
+    'melee melee'
+    'ranged ranged'
+    'advantages advantages'
+    'skills skills'
+    'spells spells'
+    'equipment equipment'
+    'other_equipment other_equipment'
+    'notes notes';
+  grid-gap: 0.05in;
+}
+
+#footer {
+  text-align: center;
+  font-size: 80%;
+}
+
+.fieldblock {
+  display: grid;
+  grid-template-columns: 0fr 1fr;
+  align-items: end;
+  padding-bottom: 0.15em;
+}
+
+.fieldblock hr {
+  grid-column: 1 / span 2;
+  width: 100%;
+  border: none;
+  background-color: black;
+  height: 1px;
+  margin: 0;
+  margin-top: 0.2em;
+  margin-bottom: 0.1em;
+}
+
+.fieldblock3 {
+  display: grid;
+  grid-template-columns: 0fr 1fr 0fr;
+  align-items: end;
+  padding-bottom: 0.15em;
+}
+
+.fieldblock3 hr {
+  grid-column: 1 / span 3;
+  width: 100%;
+  border: none;
+  background-color: black;
+  height: 1px;
+  margin: 0;
+  margin-top: 0.2em;
+  margin-bottom: 0.1em;
+}
+
+#personal {
+  grid-area: personal;
+  display: grid;
+  grid-template:
+    'portrait identity miscellaneous points'
+    'portrait description description points';
+  grid-template-columns: 0fr 1fr 1fr 0fr;
+  grid-gap: 0.05in;
+}
+
+#portrait {
+  grid-area: portrait;
+  display: grid;
+  grid-template:
+    'header'
+    'portrait';
+  grid-template-rows: 0fr auto;
+  grid-template-columns: auto;
+  border: 1px solid black;
+}
+
+#identity {
+  grid-area: identity;
+}
+
+#miscellaneous {
+  grid-area: miscellaneous;
+}
+
+#points {
+  grid-area: points;
+}
+
+#identity,
+#miscellaneous,
+#points,
+#attributes,
+#lifting,
+#hitpoints {
+  display: grid;
+  grid-template-rows: 0fr 1fr;
+  border: 1px solid black;
+}
+
+#points .field,
+#attributes .field,
+#lifting .field,
+#hitpoints .field,
+#trackers .field {
+  text-align: right;
+}
+
+#description {
+  grid-area: description;
+  display: grid;
+  grid-template:
+    'header header header'
+    'block1 block2 block3';
+  grid-template-rows: 0fr 1fr;
+  border: 1px solid black;
+}
+
+#description .header {
+  grid-area: header;
+}
+
+#description .fieldblock:nth-child(1n + 3) {
+  border-left: 1px solid black;
+}
+
+#stats {
+  grid-area: stats;
+  display: grid;
+  grid-template:
+    'attributes trackers location encumbrance'
+    'attributes trackers location qnotes'
+    'attributes trackers location lifting';
+  grid-template-columns: 0fr 2fr 0fr 0fr;
+  grid-gap: 0.05in;
+}
+
+#qnotes {
+  grid-area: qnotes;
+  margin: 2px;
+}
+
+#attributes {
+  grid-area: attributes;
+}
+
+#hitpoints {
+  grid-area: hitpoints;
+  align-content: stretch;
+}
+
+#encumbrance {
+  grid-area: encumbrance;
+  grid-template:
+    'header header header header header'
+    'encmarkerh ench loadh moveh dodgeh'
+    'encmarker enc load move dodge';
+}
+
+#lifting {
+  grid-area: lifting;
+  grid-template:
+    'header header'
+    'desc lift';
+  grid-template-columns: 1fr 0fr;
+}
+
+#lifting .header:first-child {
+  grid-area: header;
+}
+
+#location {
+  grid-area: location;
+  grid-template:
+    'header header header header'
+    'roll where penalty dr';
+  grid-template-rows: 0fr 0fr;
+  grid-auto-rows: 1fr;
+}
+
+#encumbrance .header:first-child,
+#location .header:first-child {
+  grid-area: header;
+  border-bottom: 1px solid lightgray;
+}
+
+#encumbrance,
+#lifting,
+#location,
+#reactions,
+#melee,
+#ranged,
+#advantages,
+#skills,
+#spells,
+#equipment,
+#other_equipment,
+#notes {
+  display: grid;
+  border: 1px solid black;
+  align-content: start;
+}
+
+#reactions,
+#melee,
+#ranged,
+#advantages,
+#skills,
+#spells,
+#equipment,
+#other_equipment,
+#notes {
+  grid-template-rows: repeat(1000, auto) 1fr;
+}
+
+#reactions {
+  grid-template-columns: 0fr 1fr;
+  grid-area: reactions;
+}
+
+#melee {
+  grid-template-columns: 1fr repeat(8, auto);
+  grid-area: melee;
+}
+
+#ranged {
+  grid-template-columns: 1fr repeat(10, auto);
+  grid-area: ranged;
+}
+
+#advantages {
+  grid-template-columns: 1fr repeat(2, auto);
+  grid-area: advantages;
+}
+
+#skills {
+  grid-template-columns: 1fr repeat(4, auto);
+  grid-area: skills;
+}
+
+#spells {
+  grid-template-columns: 1fr repeat(10, auto);
+  grid-area: spells;
+}
+
+#equipment {
+  grid-template-columns: auto auto 1fr repeat(6, auto);
+  grid-area: equipment;
+}
+
+#other_equipment {
+  grid-template-columns: auto 1fr repeat(7, auto);
+  grid-area: other_equipment;
+}
+
+#notes {
+  grid-template-columns: 1fr auto;
+  grid-area: notes;
+}
+
+.points {
+  text-align: right;
+  padding-left: 0.2em;
+  padding-right: 0.2em;
+  font-size: 80%;
+  align-self: center;
+}
+
+.points-fp {
+  text-align: right;
+  padding-left: 0.2em;
+  padding-right: 0.2em;
+  font-size: 80%;
+}
+
+.label {
+  text-align: left;
+  padding-left: 0.2em;
+  padding-right: 0.2em;
+  font-size: 80%;
+  white-space: nowrap;
+}
+
+.field {
+  margin-right: 0.2em;
+}
+
+.condensed {
+  font-size: 80%;
+}
+
+.field,
+.desc,
+.cls,
+.college,
+.mana,
+.mana_maintain,
+.time,
+.duration,
+.sl,
+.rsl,
+.qty,
+.equipped,
+.uses,
+.cost,
+.sum_cost,
+.weight,
+.sum_weight,
+.pts,
+.ref,
+.usage,
+.level,
+.parry,
+.block,
+.damage,
+.reach,
+.st,
+.acc,
+.range,
+.rof,
+.shots,
+.bulk,
+.rcl,
+.load,
+.loadh,
+.move,
+.moveh,
+.dodge,
+.dodgeh,
+.roll,
+.where,
+.dr,
+.liftdesc,
+.lift,
+.modifier,
+.situation {
+  padding-left: 0.2em;
+  padding-right: 0.2em;
+  border-bottom: 1px solid lightgray;
+}
+
+.penalty {
+  padding-left: 0.2em;
+  padding-right: 1em;
+  border-bottom: 1px solid lightgray;
+}
+
+.enc,
+.ench {
+  padding-left: 0;
+  padding-right: 0.2em;
+  border-bottom: 1px solid lightgray;
+}
+
+.encmarker,
+.encmarkerh {
+  padding-left: 0.2em;
+  padding-right: 0;
+  border-bottom: 1px solid lightgray;
+}
+
+#encumbrance .encmarker:nth-last-child(10n + 5),
+#encumbrance .enc:nth-last-child(10n + 4),
+#encumbrance .load:nth-last-child(10n + 3),
+#encumbrance .move:nth-last-child(10n + 2),
+#encumbrance .dodge:nth-last-child(10n + 1),
+#lifting .liftdesc:nth-last-child(4n + 1),
+#lifting .lift:nth-last-child(4n + 2),
+#location .roll:nth-last-child(8n + 4),
+#location .where:nth-last-child(8n + 3),
+#location .penalty:nth-last-child(8n + 2),
+#location .dr:nth-last-child(8n + 1),
+#reactions .modifier:nth-child(even),
+#reactions .situation:nth-child(odd),
+#melee .desc:nth-child(even),
+#melee .usage:nth-child(odd),
+#melee .level:nth-child(even),
+#melee .parry:nth-child(odd),
+#melee .block:nth-child(even),
+#melee .damage:nth-child(odd),
+#melee .reach:nth-child(even),
+#melee .st:nth-child(odd),
+#ranged .desc:nth-child(even),
+#ranged .usage:nth-child(odd),
+#ranged .level:nth-child(even),
+#ranged .acc:nth-child(odd),
+#ranged .damage:nth-child(even),
+#ranged .range:nth-child(odd),
+#ranged .rof:nth-child(even),
+#ranged .shots:nth-child(odd),
+#ranged .bulk:nth-child(even),
+#ranged .rcl:nth-child(odd),
+#ranged .st:nth-child(even),
+#advantages .desc:nth-child(even),
+#advantages .pts:nth-child(odd),
+#advantages .ref:nth-child(even),
+#skills .desc:nth-child(even),
+#skills .sl:nth-child(odd),
+#skills .rsl:nth-child(even),
+#skills .pts:nth-child(odd),
+#skills .ref:nth-child(even),
+#spells .desc:nth-child(even),
+#spells .cls:nth-child(odd),
+#spells .college:nth-child(even),
+#spells .mana:nth-child(odd),
+#spells .mana_maintain:nth-child(even),
+#spells .time:nth-child(odd),
+#spells .duration:nth-child(even),
+#spells .sl:nth-child(odd),
+#spells .rsl:nth-child(even),
+#spells .pts:nth-child(odd),
+#spells .ref:nth-child(even),
+#equipment .equipped:nth-child(even),
+#equipment .qty:nth-child(odd),
+#equipment .desc:nth-child(even),
+#equipment .uses:nth-child(odd),
+#equipment .cost:nth-child(even),
+#equipment .weight:nth-child(odd),
+#equipment .sum_cost:nth-child(even),
+#equipment .sum_weight:nth-child(odd),
+#equipment .ref:nth-child(even),
+#other_equipment .qty:nth-child(even),
+#other_equipment .desc:nth-child(odd),
+#other_equipment .uses:nth-child(even),
+#other_equipment .cost:nth-child(odd),
+#other_equipment .weight:nth-child(even),
+#other_equipment .sum_cost:nth-child(odd),
+#other_equipment .sum_weight:nth-child(even),
+#other_equipment .ref:nth-child(odd),
+#notes .desc:nth-child(even),
+#notes .ref:nth-child(odd) {
+  background-color: #e8ffe8;
+}
+
+#equipment .desc,
+#other_equipment .desc,
+.cls,
+.college,
+.mana,
+.mana_maintain,
+.time,
+.duration,
+.sl,
+.rsl,
+.qty,
+.uses,
+.cost,
+.sum_cost,
+.weight,
+.sum_weight,
+.pts,
+.ref,
+.usage,
+.level,
+.parry,
+.block,
+.damage,
+.reach,
+.st,
+.acc,
+.range,
+.rof,
+.shots,
+.bulk,
+.rcl,
+.load,
+.loadh,
+.move,
+.moveh,
+.dodge,
+.dodgeh,
+.where,
+.penalty,
+.dr,
+.situation {
+  border-left: 1px solid lightgray;
+}
+
+.sl,
+.rsl,
+.qty,
+.equipped,
+.uses,
+.cost,
+.sum_cost,
+.weight,
+.sum_weight,
+.pts,
+.ref,
+.level,
+.parry,
+.block,
+.reach,
+.st,
+.acc,
+.rof,
+.shots,
+.bulk,
+.rcl,
+.load,
+.where,
+.penalty,
+.dr,
+.lift,
+.modifier {
+  text-align: right;
+}
+
+.move,
+.dodge,
+.equipped,
+.roll {
+  text-align: center;
+}
+
+.liftdesc,
+.where {
+  text-align: left;
+}
+
+.encmarker,
+.encmarkerh,
+.enc,
+.ench,
+.load,
+.loadh,
+.move,
+.moveh,
+.dodge,
+.dodgeh,
+.roll,
+.where,
+.penalty,
+.dr,
+.liftdesc,
+.lift,
+.modifier {
+  white-space: nowrap;
+}
+
+#lifting .field,
+.noedit {
+  white-space: nowrap;
+  border: none;
+}
+
+.header,
+#reactions .header,
+#melee .header,
+#ranged .header,
+#equipment .header,
+#other_equipment .header {
+  background-color: black;
+  border-bottom: 1px solid black;
+  color: white;
+  text-align: center;
+  font-size: 80%;
+}
+
+#location .header:nth-last-child(8n + 4),
+#location .header:nth-last-child(8n + 3),
+#location .header:nth-last-child(8n + 2),
+#location .header:nth-last-child(8n + 1) {
+  background-color: black;
+}
+
+#encumbrance > div:nth-last-child(-n + 5),
+#lifting > div:nth-last-child(-n + 2),
+#location > div:nth-last-child(-n + 4) {
+  border-bottom: none;
+}
+
+#reactions > div:nth-last-child(-n + 3),
+#melee > div:nth-last-child(-n + 9),
+#ranged > div:nth-last-child(-n + 11),
+#advantages > div:nth-last-child(-n + 3),
+#skills > div:nth-last-child(-n + 5),
+#spells > div:nth-last-child(-n + 11),
+#equipment > div:nth-last-child(-n + 9),
+#other_equipment > div:nth-last-child(-n + 9),
+#notes > div:nth-last-child(-n + 1) {
+  border-bottom: none;
+  grid-row: 1001;
+}
+
+.indent1 {
+  padding-left: 1em;
+}
+
+.indent2 {
+  padding-left: 2em;
+}
+
+.indent3 {
+  padding-left: 3em;
+}
+
+.indent4 {
+  padding-left: 4em;
+}
+
+.indent5 {
+  padding-left: 5em;
+}
+
+.indent6 {
+  padding-left: 6em;
+}
+
+.indent7 {
+  padding-left: 7em;
+}
+
+.indent8 {
+  padding-left: 8em;
+}
+
+.indent9 {
+  padding-left: 9em;
+}
+
+.satisfiedN {
+  color: red;
+}
+
+#encumbrance .current:nth-last-child(10n + 5),
+#encumbrance .current:nth-last-child(10n + 4),
+#encumbrance .current:nth-last-child(10n + 3),
+#encumbrance .current:nth-last-child(10n + 2),
+#encumbrance .current:nth-last-child(10n + 1),
+.current {
+  background-color: lightgoldenrodyellow;
+}
+
+.list_note {
+  font-size: 80%;
+}
+
+.encmarker.current:after {
+  content: '>';
+}
+
+.enc0:after {
+  content: 'None (0)';
+}
+
+.enc1:after {
+  content: 'Light (1)';
+}
+
+.enc2:after {
+  content: 'Medium (2)';
+}
+
+.enc3:after {
+  content: 'Heavy (3)';
+}
+
+.enc4:after {
+  content: 'X-heavy (4)';
+}
+
+.overflowy {
+  overflow-y: auto;
+}
+
+/* ----- combat sheet additions ----- */
+
+#combat-sheet {
+  display: grid;
+  grid-template-columns: 0fr 8em 8em auto;
+  grid-template-rows: 0fr auto auto;
+  grid-gap: 0.05in;
+  grid-template-areas:
+    'combat-attrs    combat-hitfat   combat-trackers combat-location'
+    'combat-encumber combat-encumber combat-trackers combat-location'
+    'combat-weapons  combat-weapons  combat-weapons  combat-weapons ';
+}
+
+#combat-hitfat {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto auto;
+  grid-gap: 0.05in;
+  grid-template-areas:
+    'combat-hit'
+    'combat-fat';
+}
+
+#combat-trackers {
+  grid-area: combat-trackers;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-between;
+}
+
+#combat-attrs,
+#combat-weapons,
+#combat-location {
+  grid-gap: 0.05in;
+  display: grid;
+  grid-template-rows: 0fr 1fr;
+}
+
+#combat-identity,
+#combat-hit,
+#combat-fat,
+#combat-attrs,
+#combat-location {
+  border: 1px solid black;
+}
+
+.header.major-heading {
+  border-bottom: 1px solid white;
+}
+
+.header.minor-heading {
+  background-color: grey !important;
+  border: none !important;
+}
+
+.no-border {
+  border: none !important;
+}
+
+#combat-encumber {
+  border: 1px solid black;
+  align-content: stretch;
+}
+
+#combat-identity {
+  grid-area: combat-identity;
+}
+
+#combat-hit {
+  grid-area: combat-hit;
+}
+
+#combat-fat {
+  grid-area: combat-fat;
+}
+
+#combat-fat .field,
+#combat-hit .field,
+.tracked-resource .field {
+  text-align: end;
+  margin-left: 2px;
+  margin-right: 2px;
+}
+
+#editorsheet #combat-hit .field,
+#editorsheet #combat-fat .field,
+#editorsheet .tracked-resource .field {
+  border-bottom: 1px solid lightgrey;
+}
+
+#editorsheet .tracked-resource .tooltip .field {
+  border: none !important;
+}
+
+/* .gurps #combat-sheet .condition-block {
+  font-size: 80%;
+  grid-template-columns: 0fr 1fr 0fr;
+  grid-template-areas:
+    "basic-value basic-label reset"
+    "condition   condition   condition";
+} */
+
+/* .gurps .condition-block .basic-value {
+  grid-area: basic-value;
+}
+
+.gurps .condition-block .basic-label {
+  grid-area: basic-label;
+  text-align: left;
+  padding-left: .2em;
+  padding-right: .2em;
+  white-space: nowrap;
+  align-self: center;
+} */
+
+.conditional-injury .condition-block .basic-value .label {
+  text-align: right;
+}
+
+.gurps #combat-sheet .condition-block .basic-label {
+  font-size: 80%;
+}
+
+#hitpoints .selected {
+  background-color: #ffcdd2;
+}
+
+.gurps .condition-block .tired,
+.gurps .condition-block .reeling {
+  background-color: #b8ffff;
+}
+
+.gurps .condition-block .collapse,
+.resource-spinner .depleted {
+  background-color: #ffcdd2;
+}
+
+.gurps .condition-block .check {
+  background-color: lightcoral;
+}
+
+.gurps .condition-block .unconscious,
+.gurps .condition-block .dead {
+  background-color: black;
+  color: white;
+}
+
+.gurps .condition-block .destroyed {
+  background-color: black;
+  color: lightcoral;
+}
+
+#combat-location {
+  display: grid;
+  gap: 0;
+  border: 1px solid black;
+  align-content: stretch;
+  grid-area: combat-location;
+  grid-template:
+    'header header header  header'
+    'roll   where  penalty dr';
+  grid-template-rows: 0fr 0fr;
+  grid-auto-rows: 1fr;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+#combat-encumber-container {
+  display: grid;
+  grid-area: combat-encumber-container;
+  grid-template:
+    'header header header header header'
+    'encmarkerh ench loadh moveh dodgeh'
+    'encmarker enc load move dodge';
+  /* font-size: 80%; */
+}
+
+#combat-encumber-container .encmarkerh,
+#combat-encumber-container .ench,
+#combat-encumber-container .loadh,
+#combat-encumber-container .moveh,
+#combat-encumber-container .dodgeh,
+#combat-encumber-container .encmarker,
+#combat-encumber-container .enc,
+#combat-encumber-container .load,
+#combat-encumber-container .move,
+#combat-encumber-container .dodge {
+  font-size: 80%;
+}
+
+#combat-encumber .header:first-child,
+#combat-location .header:first-child {
+  grid-area: header;
+  border-bottom: 1px solid lightgray;
+}
+
+#combat-encumber .encmarker:nth-last-child(10n + 5),
+#combat-encumber .enc:nth-last-child(10n + 4),
+#combat-encumber .load:nth-last-child(10n + 3),
+#combat-encumber .move:nth-last-child(10n + 2),
+#combat-encumber .dodge:nth-last-child(10n + 1),
+#combat-location .roll:nth-last-child(8n + 4),
+#combat-location .where:nth-last-child(8n + 3),
+#combat-location .penalty:nth-last-child(8n + 2),
+#combat-location .dr:nth-last-child(8n + 1) {
+  background-color: #e8ffe8;
+}
+
+#combat-location .header:nth-last-child(8n + 4),
+#combat-location .header:nth-last-child(8n + 3),
+#combat-location .header:nth-last-child(8n + 2),
+#combat-location .header:nth-last-child(8n + 1) {
+  background-color: black;
+}
+
+#combat-location > div:nth-last-child(-n + 4) {
+  border-bottom: none;
+}
+
+#combat-location .roll,
+#combat-location .where,
+#combat-location .penalty,
+#combat-location .dr {
+  font-size: 80%;
+}
+
+#combat-attrs {
+  grid-area: combat-attrs;
+  gap: 0;
+}
+
+#combat-attrs-container {
+  display: grid;
+  gap: 0 0.15em;
+  grid-template-columns: 0fr 0fr;
+  grid-template-rows: auto;
+  grid-template-areas: 'combat-attrs-1 combat-attrs-2';
+}
+
+#combat-attrs-1 {
+  grid-area: combat-attrs-1;
+  border-right: 1px solid black;
+}
+
+#combat-attrs-2 {
+  grid-area: combat-attrs-2;
+}
+
+#combat-encumber {
+  grid-area: combat-encumber;
+}
+
+#combat-encumber {
+  grid-template:
+    'header header header header header'
+    'encmarkerh ench loadh moveh dodgeh'
+    'encmarker enc load move dodge';
+}
+
+#combat-encumber > div:nth-last-child(-n + 5),
+#combat-location > div:nth-last-child(-n + 4) {
+  border-bottom: none;
+}
+
+#combat-encumber .current:nth-last-child(10n + 5),
+#combat-encumber .current:nth-last-child(10n + 4),
+#combat-encumber .current:nth-last-child(10n + 3),
+#combat-encumber .current:nth-last-child(10n + 2),
+#combat-encumber .current:nth-last-child(10n + 1),
+.current {
+  background-color: lightgoldenrodyellow;
+}
+
+#combat-weapons {
+  grid-area: combat-weapons;
+  display: grid;
+  row-gap: 0.05in;
+  grid-template-columns: auto;
+  grid-template-rows: auto auto auto;
+  grid-template-areas:
+    'speed-range-table'
+    'melee'
+    'ranged';
+}
+
+#combat-weapons .desc,
+#combat-weapons .list_note,
+#combat-weapons .usage,
+#combat-weapons .level,
+#combat-weapons .parry,
+#combat-weapons .damage,
+#combat-weapons .reach,
+#combat-weapons .st,
+#combat-weapons .acc,
+#combat-weapons .range,
+#combat-weapons .rof,
+#combat-weapons .shots,
+#combat-weapons .bulk,
+#combat-weapons .rcl {
+  font-size: 80%;
+}
+
+#combat-attrs-damage-sw {
+  grid-area: combat-attrs-damage-sw;
+}
+
+#combat-attrs-damage-thr {
+  grid-area: combat-attrs-damage-thr;
+}
+
+#speed-range-table {
+  grid-area: speed-range-table;
+  border: 1px solid black;
+  align-content: stretch;
+  display: grid;
+  grid-template-areas:
+    'header'
+    'range-table';
+}
+
+#range-table {
+  grid-area: range-table;
+  display: grid;
+  border: 1px solid lightgray;
+  align-content: stretch;
+  grid-template-columns: 3fr repeat(var(--count), 1fr);
+  grid-template-rows: 0fr 0fr;
+}
+
+#range-table .label {
+  text-align: end;
+  border-right: 1px solid lightgray;
+  border-bottom: 1px solid lightgray;
+}
+
+#range-table .label:nth-last-child(1),
+#range-table .label:nth-last-child(2),
+#range-table .label:nth-last-child(3),
+#range-table .label:nth-last-child(4),
+#range-table .label:nth-last-child(5),
+#range-table .label:nth-last-child(6),
+#range-table .label:nth-last-child(7),
+#range-table .label:nth-last-child(8),
+#range-table .label:nth-last-child(9),
+#range-table .label:nth-last-child(10),
+#range-table .label:nth-last-child(11),
+#range-table .label:nth-last-child(12),
+#range-table .label:nth-last-child(13),
+#range-table .label:nth-last-child(14),
+#range-table .label:nth-last-child(15),
+#range-table .label:nth-last-child(16) {
+  border-bottom: none;
+}
+
+#range-table .label:nth-last-child(17),
+#range-table .label:nth-last-child(1) {
+  border-right: none;
+}
+
+#range-table .label:nth-child(odd) {
+  background-color: #e8ffe8;
+}
+
+/* Message Chat styles */
+.damage-all-message,
+.damage-message {
+  border: 1px #6f6c66;
+  border-style: outset;
+  border-radius: 5px;
+  margin: 3px;
+  padding: 0.25em;
+}
+
+.damage-all-message:hover,
+.damage-message:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.roll-message .modifier-list {
+  list-style-type: none;
+}
+
+.chat-message .modifier-list li,
+.roll-message .modifier-list li {
+  font-size: 85%;
+  font-style: italic;
+}
+
+.roll-result {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.roll-result .roll-value {
+  font-size: medium;
+  font-weight: bold;
+}
+
+.roll-message .aside {
+  font-size: smaller;
+  text-align: end;
+  font-weight: normal;
+  text-align: start;
+}
+
+.roll-message .note {
+  font-size: medium;
+  text-align: right;
+  font-weight: normal;
+  text-align: start;
+}
+
+.roll-result .roll-value,
+.roll-result .roll-detail {
+  font-family: 'Font Awesome 5 Free', 'Roboto', sans-serif;
+}
+
+.roll-result .roll-detail {
+  font-weight: normal;
+}
+
+.roll-result .roll-detail .aside {
+  font-size: inherit;
+}
+
+.roll-result .roll-detail .crit {
+  font-size: large;
+  font-weight: bolder;
+}
+
+.roll-result .roll-detail .success {
+  color: darkgreen;
+  font-weight: bold;
+}
+
+.roll-result .roll-detail .failure {
+  color: darkred;
+  font-weight: bold;
+}
+
+.roll-result .roll-detail .crit.success {
+  color: black;
+  text-shadow: 0 0 3px #00ff00;
+}
+.roll-result .roll-detail .crit.failure {
+  color: black;
+  text-shadow: 0 0 3px #ff0000;
+}
