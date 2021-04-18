@@ -8,5 +8,8 @@
 	"compatibleCoreVersion": "0.7.9",
 	"esmodules": ["gurps-shop.js"],
 	"systems": ["gurps"],
-	"styles": ["gurps-shop.css"]
+	"styles": ["gurps-shop.css"],
+	"download": "https://github.com/rinickolous/gurps-shop/releases/download/1.0/gurps-shop.zip",
+	"manifest": "https://github.com/rinickolous/gurps-shop/releases/latest/download/module.json",
+	"url": "https://github.com/rinickolous/gurps-shop"
 }
